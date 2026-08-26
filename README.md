@@ -14,11 +14,11 @@ This project models a simplified automotive network: independent nodes producing
  └───────┬───────┘        └───────┬───────┘
          │                        │
          └──────────┐  ┌──────────┘
-                     ▼  ▼
-              ┌─────────────────-┐
-              │   CAN Bus (8 MHz)│
-              └─────────┬────────┘
-                         ▼
+                    ▼  ▼
+              ┌─────────────────┐
+              │  CAN Bus (8 MHz)│
+              └─────────┬───────┘
+                        ▼
                  ┌───────────────┐
                  │     ECU3      │
                  │ CAN Rx +      │
