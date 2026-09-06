@@ -65,6 +65,14 @@ This project models a simplified automotive network: independent nodes producing
 
 ---
 
+## Working Demonstration 📽️
+
+- The DIP 8-Way Switch is off during capturing , so you guys can't see the 💡 LED pattern blinking for respective indicator and hazard . I designed it using Timer0 which toggles the led in a fixed interval .
+
+  
+https://github.com/user-attachments/assets/e49b608a-d6d3-44e3-83ba-ea90d8721f98
+
+--- 
 ## 📁 Repository Structure
 
 ```
