@@ -1,6 +1,6 @@
 # 🚗 CAN-Dashboard-pic18f4580
 
-A 3-node **CAN bus telemetry system** built on **PIC18F4580** microcontrollers, simulating a real vehicle instrument cluster. Two sender ECUs broadcast RPM, turn-indicator, speed, and gear data over CAN; a receiver ECU decodes the frames and renders them live on a character LCD dashboard. 📟
+A 3-node **CAN bus telemetry system** built on **PIC18F4580** microcontrollers, simulating a real vehicle instrument cluster. Two sender ECUs broadcast RPM, turn-indicator, speed, and gear data over CAN; a receiver ECU decodes the frames and renders them live on a character LCD dashboard. **Build using embedded protocol : CAN (Controller Area Network).**
 
 ---
 
