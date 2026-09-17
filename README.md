@@ -8,27 +8,9 @@ A 3-node **CAN bus telemetry system** built on **PIC18F4580** microcontrollers, 
 
 This project models a simplified automotive network: independent nodes producing sensor/input data, a shared CAN bus for transport, and a dedicated display node acting as the driver-facing instrument cluster — the same architectural pattern used in real vehicle body/powertrain networks. 🔧
 
-```
-+----------------+          +----------------+
-|     ECU1       |          |     ECU2       |
-| RPM (ADC) +    |          | Speed (ADC) +  |
-| Indicator sw.  |          | Gear select    |
-+-------+--------+          +-------+--------+
-        |                           |
-        +------------+--------------+
-                     |
-                     v
-            +-------------------+
-            |   CAN Bus (8MHz)  |
-            +---------+---------+
-                      |
-                      v
-              +----------------+
-              |     ECU3       |
-              | CAN Rx +       |
-              | CLCD Display + |
-              | Indicator LED  |
-              +----------------+
+<img width="3011" height="6778" alt="diagram (1)" src="https://github.com/user-attachments/assets/0371281e-d2b9-4dde-a12b-7bc891008893" />
+
+
 ```
 
 ---
